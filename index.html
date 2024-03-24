@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <title>Tailwind CSS</title>
+</head>
+<body class="bg-gray-500">
+    
+<div class="bg-no-repeat bg-cover" style="background-image: url('/Pictures/hero-bg.png'); width: 100%; height: 130vh;">
+        
+<!--Navigation bar--> 
+
+            <nav class=" md:flex md:justify-between md:items-center pt-2">
+                    <div class="flex justify-between mx-8 h-10 ">
+                        <div class="text-white  hover:text-red-600">
+                            <img class="h-6 w-6 rounded-full inline" src="/Pictures/tailwind.png">
+                            <a href="#" class="text-2xl ps-1">tailwind</a>
+                        </div>
+
+                        <div class="my-2 text-2xl md:hidden text-white  hover:text-red-600">
+                            <a href="#"><ion-icon name="menu" onclick="menu(this)"></ion-icon></a>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <ul class=" block md:flex text-xl md:items-center z-[-1] md:z-auto pe-6">
+                            <li class="mx-4 text-white my-2 cursor-pointer hover:text-red-600"><a href="#"></a>Home</li>
+                            <li class="mx-4 text-white my-2 cursor-pointer hover:text-red-600"><a  href="#"></a>About</li>
+                            <li class="mx-4 text-white my-2 cursor-pointer hover:text-red-600"><a href="#"></a>Contract</li>
+                            <li class="mx-4 text-white my-2 cursor-pointer hover:text-red-600"><a href="#"></a>Service</li>
+                            <li class="mx-4 text-white my-2 cursor-pointer hover:text-red-600"><a href="#"></a>Login</li>
+                        </ul>
+                    </div>
+            </nav>
+
+
+<!--Crypto Currency--> <!--Crypto Currency--> <!--Crypto Currency--> <!--Crypto Currency--> <!--Crypto Currency-->
+        <div class="mt-[150px] md:flex md:justify-around ms-4 w-full">
+            <div class=" h-[300px] w-[450px] text-white">
+                <h1 class=" text-4xl md:text-5xl">CRYPTO <br> CURRENCY</h1>
+                <p class="text-[20px] mt-6 me-12 text-justify">
+                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                </p>
+                <button class="btn">Read more</button>   
+            </div>
+            <div class=" h-[300px] w-[450px] mt-20 md:mt-6 animate-bounce">
+                <img src="/Pictures/slider-img (1).png">
+            </div>
+        </div>
+    </div>
+
+
+<!--Our Service --> <!--Our Service --> <!--Our Service --> <!--Our Service --> <!--Our Service --> 
+<div class="mt-[100px] md:mt-[50px]">
+<div class="mt-20 md:mt-0">
+        <h1 class="text-3xl text-center">Our <span class="text-blue-800">Services</span></h1>
+        <p class="ms-6 me-8 md:ms-0 md:text-center text-justify text-[20px] mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+    </div>
+<!--Item-1-->
+    <div class="ms-6 me-8 md:flex block mt-8 md:mt-2 md:justify-around">
+        <div class="shadow-2xl p-2 md:w-[250px] mt-6">
+            <div class="md:grid grid-rows-1 w-[90px] ms-16 h-[90px] justify-items-center"><img src="/Pictures/s1.png" alt=""></div>
+            <h1 class="text-2xl mt-3">CURRENCY WALLET</h1>
+            <p class="text-justify mt-1">Fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+        </div>
+<!--Item-1-->
+        <div class="shadow-2xl p-2 md:w-[250px] mt-10">
+            <div class="w-[90px] h-[90px] ms-16"><img src="/Pictures/s2.png" alt=""></div>
+            <h1 class="text-2xl mt-3">SECURITY STORAGE</h1>
+            <p class="text-justify mt-1">Fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+        </div>
+<!--Item-1-->
+        <div class="shadow-2xl p-2 md:w-[250px] mt-10">
+            <div class="w-[90px] h-[90px] ms-16"><img src="/Pictures/s3.png" alt=""></div>
+            <h1 class="text-2xl mt-3">EXPERT SUPPORT</h1>
+            <p class="text-justify mt-1">Fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+        </div>
+    </div>
+    <div class="md:flex md:justify-center mt-5">
+        <button class="btn">View All</button>   
+    </div>
+</div>
+
+
+<!--About--> 
+    <div class=" bg-blue-950 mt-20 pt-4 md:mb-4 pb-16 md:mt-20">
+    <div class="mt-5 md:text-center">
+        <h1 class="text-3xl text-white text-center">About <span class="text-blue-800">Us</span></h1>
+        <p class="text-[14px] md:text-center ms-10 me-10 mt-2 text-white text-justify">Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum ipsum voluptatibus        </p>
+    </div>
+    <div class="mt-4 md:flex  md:justify-around ms-4 w-full" >
+            <div class=" h-[300px] w-[450px] skew-y-12 animate-pulse">
+                <img src="/Pictures/about-img.png">
+            </div>
+            <div class=" h-[300px] w-[450px] text-white md:mt-5 mt-[100px]">
+                <h1 class="md:text-xl">We Are Finexo</h1>
+                <p class="text-[14px] me-12 mt-2 text-justify">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All
+                    Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.
+                </p>
+                <button class="btn">Read more</button>   
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Why Choose Us--> <!--Why Choose Us--> <!--Why Choose Us--> <!--Why Choose Us--> <!--Why Choose Us-->
+<div class="grid grid-rows-1 justify-items-center mt-10">
+    <div class="text-3xl mt-10">
+        Why Choose <span class="text-blue-800">Us</span>
+    </div>
+    <div class="flex w-[100px] h-[100px] mt-10">
+        <img class="border-4 p-3 border-blue-950 rounded-full" src="/Pictures/w1.png">
+    </div>
+    <div class="mt-2 ms-10 md:ms-[150px]  me-10 md:me-[150px] md:text-center">
+    <h1 class="text-xl">Expert Management</h1>
+    <p class="text-[14px]  mt-2 text-justify">Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus</p>
+    </div> 
+</div>
+<div class="grid grid-rows-1 justify-items-center mt-10">
+    <div class="flex w-[100px] h-[100px]">
+        <img class="border-4 p-3 border-blue-950 rounded-full" src="/Pictures/w2.png">
+    </div>
+    <div class="mt-2 ms-10 md:ms-[150px] me-10 md:me-[150px] md:text-center">
+    <h1 class="text-xl">Secure Investment</h1>
+    <p class="text-[14px]  mt-2 text-justify">Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus</p>
+    </div> 
+</div>
+<div class="grid grid-rows-1 justify-items-center mt-10">
+    <div class="flex w-[100px] h-[100px]">
+        <img class="border-4 p-3 border-blue-950 rounded-full" src="/Pictures/w3.png">
+    </div>
+    <div class="mt-2 ms-10 md:ms-[150px]  me-10 md:me-[150px] md:text-center">
+        <h1 class="text-xl">Instant Trading</h1>
+        <p class="text-[14px]  mt-2 text-justify">Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus</p>
+    </div> 
+</div>
+<div class="grid grid-rows-1 justify-items-center mt-10">
+    <div class="flex w-[100px] h-[100px]  ">
+        <img class="border-4 p-3 border-blue-950 rounded-full" src="/Pictures/w4.png">
+    </div>
+    <div class="mt-2 ms-10 md:ms-[150px]  me-10 md:me-[150px] md:text-center">
+    <h1 class="text-xl">Happy Customers</h1>
+    <p class="text-[14px]  mt-2 text-justify">Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus</p>
+    </div> 
+</div>
+<div class="md:flex md:justify-center ms-10">
+    <button class="btn">Read more</button>
+</div>
+
+
+<!--Our Team--> 
+<div class="mt-[100px] md:mt-[100px] bg-slate-800 py-[50px]">
+<h1 class="md:text-center text-3xl ms-10 md:text-3xl text-white">Our<span class="text-blue-600">Team</span></h1>
+<div class="md:flex md:justify-around  ms-10 md:ms-0">
+    <div class="text-white shadow-white shadow-xl w-[150px] rounded-md text-center mt-[100px] py-6">
+        <div>
+            <img class="h-[100px] w-[100px] border-2 rounded-full ms-6" src="/Pictures/Nayim .jpg"> 
+        </div>
+        <h1 class="text-base">MD. Nayim Talukder</h1>
+        <p>He is a student.</p>
+    </div>
+    <div class="text-white shadow-white shadow-xl w-[150px] rounded-md text-center mt-[100px] py-6">
+        <div>
+            <img class=" h-[100px] w-[100px] border-2 rounded-full ms-6" src="/Pictures/Ridoy .jpg"> 
+        </div>
+        <h1>MD. Ridoy Hossen</h1>
+        <p>He is a student.</p>
+    </div>
+    <div class="text-white shadow-white shadow-xl w-[150px] rounded-md text-center mt-[100px] py-6">
+        <div>
+            <img class=" h-[100px] w-[100px] border-2 rounded-full ms-6" src="/Pictures/Sagor-1.jpg"> 
+        </div>
+        <h1>MD. Sagor Hossen</h1>
+        <p>He is a student.</p>
+    </div>
+    <div class="text-white shadow-white shadow-xl w-[150px] rounded-md text-center mt-[100px] py-6">
+        <div>
+            <img class=" h-[100px] w-[100px] border-2 rounded-full ms-6" src="/Pictures/Momin-1.jpg"> 
+        </div>
+        <h1>MD. Momin Shekh</h1>
+        <p>He is a student.</p>
+    </div>
+    <div class="text-white shadow-white shadow-xl w-[150px] rounded-md text-center mt-[100px] py-6">
+        <div>
+            <img class=" h-[100px] w-[100px] border-2 rounded-full ms-6" src="/Pictures/Robin.jpg"> 
+        </div>
+        <h1>MD. Robin Khan</h1>
+        <p>He is a student.</p>
+    </div>
+    <div class="text-white shadow-white shadow-xl w-[150px] rounded-md text-center mt-[100px] py-6">
+        <div>
+            <img class=" h-[100px] w-[100px] border-2 rounded-full ms-6" src="/Pictures/Arif-1.jpg"> 
+        </div>
+        <h1>MD. Arif Hossen</h1>
+        <p>He is a student.</p>
+    </div>
+</div>
+</div>
+
+
+
+<!--Footer--> <!--Footer--> <!--Footer--> <!--Footer--> <!--Footer--> <!--Footer--> <!--Footer-->
+<div class="md:flex justify-around bg-slate-800 text-white pt-4 pb-8 mt-[100px]">
+    <div class="mt-5 ms-10">
+        <h1 class="text-2xl">Address</h1>
+        <ul>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Call 01406296050</a></li>
+            <li><a href="#">www.Gmail.com</a></li>
+        </ul>
+    </div>
+    <div class="w-[250px] mt-5 ms-10">
+        <h1 class="text-2xl">Info</h1>
+        <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful</p>
+    </div>
+    <div class="mt-5 ms-10">
+        <h1 class="text-2xl">Links</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contract</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </div>
+    <div class="mt-5 ms-10">
+        <h1 class="text-2xl">Subscribe</h1>
+        <form class="form-input mt-3">
+            <input class="form-check-input border-b-2 border-white focus:outline-none bg-slate-800 py-2" type="mail" name="" id="mail" placeholder="E-mail address">
+            <label for="mail"></label>
+        </form>
+        <div class="mt-5">
+            <button class="bg-blue-700 px-6 py-1 rounded-lg hover:bg-green-700 hover:text-red-700">Subscribe</button>
+        </div>
+    </div>
+</div>
+
+
+<!--End-->
+<div class="text-center text-white mt-6 mb-6">
+    © 2024 All Rights Reserved. By MD. Nayim Talukder
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function menu(e){
+        let list = document.querySelector('ul')
+e.name=="menu"? (e.name='close', list.className.add('opacity-0')): (e.name="menu", list.className.add('opacity-100'))
+    }
+
+
+
+</script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
